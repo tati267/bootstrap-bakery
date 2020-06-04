@@ -1,7 +1,6 @@
-
-$(function() {
-    $('.hambrger-menu').on('click', function(){
-        $('.nav-list').toggleClass('open');
-
+$(function () {
+    $(".hamburger-menu").click(function () {
+      $(".toggle").toggle();
+      $(".nav-list").toggle();
+    });
   });
-});
