@@ -1,6 +1,6 @@
-$(function () {
-    $(".hamburger-menu").click(function () {
-      $(".toggle").toggle();
-      $(".nav-list").toggle();
+$(function ()  {
+    $(".hamburger-menu").click(function ()  {
+      $(".toggle").toggleClass('open');
+      $(".nav-list").toggle('open');
     });
   });
